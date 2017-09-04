@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>- GRA WISIELEC -</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    
+    <div id="page_container">
+  
+      <h1>- GRA WISIELEC -</h1>
+
+      <button id="start">START</button>
+
+      <div id="playground">
+        <h2>HASŁO:</h2>
+        <div id="sentence"></div>
+
+        <div id="hangman">
+
+          <div class="drawing basis"></div>
+          <div class="drawing gibbet"></div>
+          <div class="drawing rope"></div>
+          <div class="drawing head"></div>
+          <div class="drawing body"></div>
+          <div class="drawing limbs hands"></div>
+          <div class="drawing limbs legs"></div>
+
+        </div>
+
+        <div id="letters"></div>
+
+        <div id="msg_div"></div>
+
+        <div id="one_more">
+          <p>Chcesz zagrać jeszcze raz?</p>
+          <button id="yes">TAK</button>
+          <button id="no">NIE</button>
+        </div>
+       </div>
+
+       <div id="end">Dziękujemy za wspólną zabawę!</div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
